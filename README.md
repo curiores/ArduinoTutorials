@@ -1,5 +1,7 @@
 # ArduinoTutorials
 
+Click an image to watch the YouTube tutorial.
+
 ### 1. Arduino Blinking LED Tutorial
 ##### Code: <a href="https://github.com/curiores/ArduinoTutorials/blob/master/ledblink/ledblink.ino" target=”_blank”> ledblink/ledblink.ino </a> 
 <a href="https://youtu.be/I0ZIrzoI61g"> <img src="https://img.youtube.com/vi/I0ZIrzoI61g/0.jpg" width="200px"> </a>
@@ -16,6 +18,16 @@
 <br>
 
 ### 4. How to control a DC motor with an encoder
-##### Code: <a href="https://github.com/curiores/ArduinoTutorials/blob/master/encoderControl/part4/part4.ino" target=”_blank”> encoderControl/part4/part4.ino </a> 
+##### Code: <a href="https://github.com/curiores/ArduinoTutorials/tree/master/encoderControl" target=”_blank”> encoderControl/ </a> 
 <a href="https://youtu.be/dTGITLnYAY0"> <img src="https://img.youtube.com/vi/dTGITLnYAY0/0.jpg" width="200px"> </a>
+<br>
+
+### 5. How to control multiple  DC motors with encoders
+##### Code: <a href="https://github.com/curiores/ArduinoTutorials/tree/master/MultipleEncoders" target=”_blank”> MultipleEncoders/ </a> 
+<a href="https://youtu.be/3ozgxPi_tl0"> <img src="https://img.youtube.com/vi/3ozgxPi_tl0/0.jpg" width="200px"> </a>
+<br>
+
+### 6. How to design and implement a digital low-pass filter on an Arduino
+##### Code: <a href="https://github.com/curiores/ArduinoTutorials/tree/master/ButterworthFilter" target=”_blank”> ButterworthFilter/ </a> 
+<a href="https://youtu.be/HJ-C4Incgpw"> <img src="https://img.youtube.com/vi/HJ-C4Incgpw/0.jpg" width="200px"> </a>
 <br>
