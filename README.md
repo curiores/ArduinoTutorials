@@ -37,3 +37,8 @@ Click an image to watch the YouTube tutorial. Have questions or suggestions? Ema
 <a href="https://youtu.be/HRaZLCBFVDE"> <img src="https://img.youtube.com/vi/HRaZLCBFVDE/0.jpg" width="200px"> </a>
 <br>
 
+### 8. How to process Arduino data in Python
+##### Code: <a href="https://github.com/curiores/ArduinoTutorials/tree/main/PythonProcess" target=”_blank”> PythonProcess/ </a> 
+<a href="https://youtu.be/fIlklRIuXoY"> <img src="https://img.youtube.com/vi/fIlklRIuXoY/0.jpg" width="200px"> </a>
+<br>
+
