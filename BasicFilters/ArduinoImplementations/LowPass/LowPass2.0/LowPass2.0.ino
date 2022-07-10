@@ -43,14 +43,14 @@ class LowPass
         b[1] = alpha/(alpha+2.0);        
       }
       if(order==2){
-        float c1 = 2*sqrt(2)/alpha;
-        float c2 = 4/(alpha*alpha);
-        float denom = 1.0+c1+c2;
-        b[0] = 1.0/denom;
-        b[1] = 2.0/denom;
+        float alphaSq = alpha*alpha;
+        float beta[] = {1, sqrt(2), 1};
+        float D = alphaSq*beta[0] + 2*alpha*beta[1] + 4*beta[2];
+        b[0] = alphaSq/D;
+        b[1] = 2*b[0];
         b[2] = b[0];
-        a[0] = -(2.0-2.0*c2)/denom;
-        a[1] = -(1.0-c1+c2)/(1.0+c1+c2);      
+        a[0] = -(2*alphaSq*beta[0] - 8*beta[2])/D;
+        a[1] = -(beta[0]*alphaSq - 2*beta[1]*alpha + 4*beta[2])/D;      
       }
     }
 
